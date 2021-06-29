@@ -1,0 +1,25 @@
+{
+  "name": "takielias/php-serial-port",
+  "description": "Read Serial Port using PHP",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "takielias",
+      "email": "taki.elias@gmail.com"
+    }
+  ],
+  "minimum-stability": "stable",
+  "require": {
+    "ext-json": "*",
+    "wanfeiyy/dd": "^1.0",
+    "sanchescom/php-serial": "^2.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "PhpOop\\": "src/"
+    },
+    "files": [
+      "src/helpers.php"
+    ]
+  }
+}
